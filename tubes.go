@@ -44,16 +44,16 @@ var jumlahPortofolio int = 0
 var saldo float64 = 10000000 //karena trading saham tanpa resiko nyata, asumsikan kita menyedikan uang virtual sebagai bahan pembelajaran
 
 func inisialisasiDataSaham() {
-	daftarSaham[0] = saham{id: "BBCA", namasaham: "Bank Central Asia", hargaSaham: 9275, volume: 10000, nilaiSaham: 6788889} //Harga Saham dalam 1 lebar saham
-	daftarSaham[1] = saham{id: "BBRI", namasaham: "Bank rakyat Indonesia", hargaSaham: 4260, volume: 10000, nilaiSaham: 6788889}
-	daftarSaham[2] = saham{id: "BMRI", namasaham: "Bank Mandiri", hargaSaham: 5275, volume: 10000, nilaiSaham: 6788889}
-	daftarSaham[3] = saham{id: "TLKM", namasaham: "Telkom Indonesia", hargaSaham: 2660, volume: 10000, nilaiSaham: 6788889}
-	daftarSaham[4] = saham{id: "ASII", namasaham: "Astra Indonesia", hargaSaham: 4820, volume: 10000, nilaiSaham: 6788889}
-	daftarSaham[5] = saham{id: "UNVR", namasaham: "Uniliver Indonesia", hargaSaham: 4500, volume: 10000, nilaiSaham: 6788889}
-	daftarSaham[6] = saham{id: "ICBP", namasaham: "Indofood CBP Sukses Makmur", hargaSaham: 10000, volume: 10000, nilaiSaham: 6788889}
-	daftarSaham[7] = saham{id: "ADRO", namasaham: "Adaro Energy Indonesia", hargaSaham: 3000, volume: 10000, nilaiSaham: 6788889}
-	daftarSaham[8] = saham{id: "AKRA", namasaham: "AKR Corpindo", hargaSaham: 1300, volume: 10000, nilaiSaham: 6788889}
-	daftarSaham[9] = saham{id: "ACES", namasaham: "Ace Hardware Indonesia", hargaSaham: 545, volume: 10000, nilaiSaham: 6788889}
+	daftarSaham[0] = saham{id: "BBCA", namasaham: "Bank Central Asia", hargaSaham: 9275, volume: 63007500, nilaiSaham: 584370887500} //Harga Saham dalam 1 lebar saham
+	daftarSaham[1] = saham{id: "BBRI", namasaham: "Bank rakyat Indonesia", hargaSaham: 4260, volume: 289337600, nilaiSaham: 1223554936000}
+	daftarSaham[2] = saham{id: "BMRI", namasaham: "Bank Mandiri", hargaSaham: 5275, volume: 229382100, nilaiSaham: 1231284250000 }
+	daftarSaham[3] = saham{id: "TLKM", namasaham: "Telkom Indonesia", hargaSaham: 2660, volume: 101569600, nilaiSaham: 276430455000}
+	daftarSaham[4] = saham{id: "ASII", namasaham: "Astra Indonesia", hargaSaham: 4820, volume: 64271600, nilaiSaham: 311467370000}
+	daftarSaham[5] = saham{id: "UNVR", namasaham: "Uniliver Indonesia", hargaSaham: 4500, volume: 21422400, nilaiSaham: 37961994500}
+	daftarSaham[6] = saham{id: "ICBP", namasaham: "Indofood CBP Sukses Makmur", hargaSaham: 10000, volume: 7428000, nilaiSaham: 81541500000}
+	daftarSaham[7] = saham{id: "ADRO", namasaham: "Adaro Energy Indonesia", hargaSaham: 3000, volume: 287980400, nilaiSaham: 597316528500}
+	daftarSaham[8] = saham{id: "AKRA", namasaham: "AKR Corpindo", hargaSaham: 1300, volume: 16234900, nilaiSaham: 20638036000}
+	daftarSaham[9] = saham{id: "ACES", namasaham: "Ace Hardware Indonesia", hargaSaham: 545, volume: 281375600, nilaiSaham: 145534430000}
 }
 
 func tampilkanDaftarSaham() { // Daftar-daftar saham yang dapat dibeli
